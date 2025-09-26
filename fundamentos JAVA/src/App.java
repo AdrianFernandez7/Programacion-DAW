@@ -28,6 +28,10 @@ public class App {
         char c=98;
         System.out.println(b+" "+c);
 
+        System.out.print("Hola");
+        System.out.println("Hola");
+
+
         System.out.println(cadena);
 
     }
