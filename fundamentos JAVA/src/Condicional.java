@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Condicional {
 
 public static void main(String[]args) {
@@ -34,14 +36,43 @@ public static void main(String[]args) {
 //sino
 //      escribir no es divisible por 2 y 3
 //fin_SI
-int numero=4;
+/*int numero=4;
     
 if(numero%2==0 && numero %3==0){
 System.out.println("El numero "+numero+" es divisible por 2 y 3");
   }
 else {
     System.out.println("El numero "+numero+ " no es divisible por 2 y 3");
-  }
+  }*/
+
+
+
+//inicio
+//  leer numero
+//  indicar mes al que hace referencia
+// imprimirlo
+//fin_programa
+
+Scanner teclado=new Scanner(System.in);
+System.out.println("Introduzca un número");
+int numero=teclado.nextInt();
+
+switch(numero) {
+  case 1: System.out.println("ENERO");break;
+  case 2: System.out.println("FEBRERO");break;
+  case 3: System.out.println("MARZO");break;
+  case 4: System.out.println("ABRIL");break;
+  case 5: System.out.println("MAYO");break;
+  case 6: System.out.println("JUNIO");break;
+  case 7: System.out.println("JULIO");break;
+  case 8: System.out.println("AGOSTO");break;
+  case 9: System.out.println("SEPTIEMBRE");break;
+  case 10: System.out.println("OCTUBRE");break;
+  case 11: System.out.println("NOVIEMBRE");break;
+  case 12: System.out.println("DICIEMBRE");break;
+  case 13: System.out.println("VALOR INCORRCTO");break;
+}
+teclado.close();
 
 }
 }
