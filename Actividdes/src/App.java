@@ -11,7 +11,9 @@ public class App {
              MOSTRAR EN PANTALLA
           FIN_PROGRAMA   */
 
-    int aleatorio=(int)(Math.random());
+    double aleatorio=(int)(Math.random());
+    double aleatorio1=0;          System.out.println("aleatorio"+aleatorio);
+                                  System.out.println("aleatorio"+aleatorio1);
 
                      
 

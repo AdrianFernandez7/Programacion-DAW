@@ -30,7 +30,7 @@ public class Funciones {
         System.out.println(valor);
 
         //Expresiones relacionales
-        System.out.println((4>3)||(5>6));
+        System.out.println((4>3)||(3>6));
 
         //Operadores opera-asigna
         int numero11=3;

@@ -2,10 +2,10 @@ public class App {
     public static boolean logico=true;
     public static void main(String[] args) throws Exception {
         String cadena="me llamo Adrian";
-        int edad=18;
+       /*  int edad=18;
         double salario=14.568938948;
         int x=5;   int y=7;   int z=10;
-        int xx=5,yy=7,zz=10;
+        int xx=5,yy=7,zz=10;     */
         //Defino una variable, la inicializo y la imprimo//
         int variable=0;
         System.out.println(variable);
@@ -44,6 +44,6 @@ public class App {
  */
 
     public static void imprimirTexto(){
-        int logico=3;
+        
     }
 }
