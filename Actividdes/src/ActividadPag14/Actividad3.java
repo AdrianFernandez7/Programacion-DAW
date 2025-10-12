@@ -1,4 +1,4 @@
-package Actividades300925;
+package ActividadPag14;
 
 import java.util.Scanner;
 

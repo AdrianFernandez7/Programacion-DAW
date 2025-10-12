@@ -1,4 +1,4 @@
-package Actividades300925;
+package ActividadPag14;
 
 public class Actividad5 {
     public static void main(String[] args) {
