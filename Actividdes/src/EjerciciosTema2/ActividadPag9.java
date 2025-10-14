@@ -1,4 +1,4 @@
-package ActividadPag9;
+
 public class ActividadPag9{
 
 public static void main(String[] args) {
