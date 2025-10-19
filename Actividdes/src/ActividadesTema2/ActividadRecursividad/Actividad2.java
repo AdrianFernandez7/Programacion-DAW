@@ -1,4 +1,4 @@
-package ActividadRecursividad;
+package ActividadesTema2.ActividadRecursividad;
 
 public class Actividad2 {
     public static int sumaNumeros(int n){

@@ -1,4 +1,4 @@
-package ActividadRecursividad;
+package ActividadesTema2.ActividadRecursividad;
 
 public class Actividad4 {
     public static String pasarBinario(int n){

@@ -1,4 +1,4 @@
-package PracticaPag26;
+package ActividadesTema2.PracticaPag26;
 
 public class Practica36 {
     
