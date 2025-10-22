@@ -54,7 +54,7 @@ public class Ejercicio6 {
         double irpf = sueldoBruto * irpfPorcentaje;
         double sueldoNeto = sueldoBruto - irpf;
 
-        System.out.println("\n--- NÓMINA ---");
+        System.out.println("\n        --- NÓMINA ---");
         System.out.printf("%-20s %10s\n", "CONCEPTO", "IMPORTE");
         System.out.printf("%-20s %10s\n", "--------------------", "----------");
         System.out.printf("%-20s %10.2f €\n", "Sueldo Base", sueldoBase);
