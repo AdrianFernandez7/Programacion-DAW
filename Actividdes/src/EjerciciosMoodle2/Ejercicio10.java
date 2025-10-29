@@ -38,17 +38,17 @@ public class Ejercicio10 {
     }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner teclado = new Scanner(System.in);
 
         System.out.print("Introduce un número entero : ");
-        long numeroEntrada = sc.nextLong();
+        long numeroEntrada = teclado.nextLong();
 
         int pares = contarDigitosPares(numeroEntrada);
         int impares = contarDigitosImpares(numeroEntrada);
 
         System.out.println("El " + numeroEntrada + " contiene " + pares + " dígitos pares y " + impares + " dígitos impares.");
         
-        sc.close();
+        teclado.close();
     }
 }
 
