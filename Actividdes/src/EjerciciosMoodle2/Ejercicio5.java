@@ -14,15 +14,11 @@ public class Ejercicio5 {
             System.out.println("7: Salir del programa");
             System.out.print("Introduce una opción (1-7): ");
             
-            if (teclado.hasNextInt()) {
-                opcion = teclado.nextInt();
-                teclado.nextLine(); 
-            } else {
-                System.out.println("Entrada no válida. Por favor, introduce un número.");
-                teclado.nextLine(); 
-                opcion = 0; 
-                continue; 
+            opcion=teclado.nextInt();
+            if (opcion<=0 || opcion>=8){
+                System.out.println("La opción no es válida");
             }
+
             switch (opcion) {
                 case 1:
                     System.out.println("\nLUNES: Programación, Bases de Datos.");
