@@ -1,5 +1,5 @@
 public class Prueba {
-    public static void main(String[] args) {
+    /**public static void main(String[] args) {
         int vector[]={1,2,3};
         int contador=0;
         for(int i=0;i<vector.lenght;i++){
@@ -12,4 +12,12 @@ public class Prueba {
             }
         }  
     }
+*/
+public static void main(String[] args) {
+    String frutas[]={"fresa","platano","manzana","melocoton","sandia"};
+    for(int i=0;i<frutas.length;i++){
+        
+    }
+    System.out.println(frutas[0]);
+}
 }
