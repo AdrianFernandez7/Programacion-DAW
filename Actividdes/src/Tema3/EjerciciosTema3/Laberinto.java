@@ -1,8 +1,8 @@
 package Tema3.EjerciciosTema3;
 public class Laberinto {
     public static void main(String[] args){
-        final char camino='0';
-        final char pared='#';
+        //final char camino='0';
+        //final char pared='#';
 
         //Laberinto
         char[][] laberinto = {
@@ -19,7 +19,7 @@ public class Laberinto {
         }
            System.out.println();
         //Punto de inicio y fin del laberinto
-        final int INICIO=0;
+        //final int INICIO=0;
         final int filaFIN=laberinto.length;
         final int columnaFIN=laberinto[0].length;
 

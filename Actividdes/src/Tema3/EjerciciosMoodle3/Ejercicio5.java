@@ -12,9 +12,9 @@ public class Ejercicio5 {
         for (int i = 0; i < 6; i++) {
             usuario.add(teclado.nextInt());
 
-            teclado.close();
+            
         }
-
+        teclado.close();
         int aciertos = 0;
         for (int num : usuario) {
             if (correcto.contains(num)) aciertos++;
